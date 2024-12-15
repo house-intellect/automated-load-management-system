@@ -5,7 +5,7 @@ header_button_cta:
   url: "#contact-form"
   title: "Связаться с нами"
 header_button_more:
-  url: "#the-future---today"
+  url: "#будущее---сегодня"
   title: "Почему это выгодно?"
 teaser_image: "images/tease.jpg" 
 
