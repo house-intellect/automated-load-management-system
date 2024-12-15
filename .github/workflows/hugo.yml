@@ -1,0 +1,28 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [main] # Change to your main branch name if different
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true # If using submodules
+          fetch-depth: 0 # Fetch all history for .GitInfo and tags
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest' # Or a specific version
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
+        with:
+          folder: public
