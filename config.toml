@@ -23,7 +23,7 @@ canonifyURLs = true
 
   showBlog = true
   mainSections = ['blog']
-  copyright = "© house-intellect"
+  copyright = "house-intellect"
   googleFonts = true
 
   [params.logo]
