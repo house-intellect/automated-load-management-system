@@ -1,47 +1,96 @@
 baseURL = "https://house-intellect.github.io/automated-load-management-system"
 
-# This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT", "404"]
-
-defaultContentLanguage = "ru"
-
-# The name of this wonderful theme ;-).
-theme = "hugo-product-launch"
-
 # The "title" of your website
 title = "Автоматизированная Система Управления Нагрузкой - АСУН"
+author = "house-intellect"
+languageCode = "ru"
+DefaultContentLanguage = "ru"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
 
-# Render line-breaks in .md-files as line-breaks in HTML.
-# This is e.g. useful for rendering a multi-line address.
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            hardWraps = true
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
 
 [params]
-    # A "copyright"-line to be added at the bottom of the page.
-    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+
+  showBlog = true
+  mainSections = ['blog']
     copyright = "© house-intellect"
+  googleFonts = true
 
-    # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "Автоматизированная Система Управления Нагрузкой - АСУН"
 
-    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
-    favicon = "images/favicon.png"
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
 
-    # These "images" are used for the structured data templates. This will show up, when
-    # services like Twitter or Slack want to generate a preview of a link to your site.
-    # See https://gohugo.io/templates/internal#twitter-cards and
-    # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/share-image.png"]
+  [params.site]
+    name = "Автоматизированная Система Управления Нагрузкой - АСУН"
 
-    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"
+    meta_og_description = "Инновационное приложение для управления энергопотреблением, которое обеспечивает автономный контроль и оптимизацию работы вашей электрической сети"
+    meta_og_type = "website"
+    meta_og_url = "https://tella.pages.dev"
+    meta_og_image = "https://house-intellect.github.io/automated-load-management-system/images/tease.jpg"
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@username"
+    meta_twitter_creator = "@username"
+  # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Автоматизированная Система Управления Нагрузкой"
+    meta_og_title = "Автоматизированная Система Управления Нагрузкой"
+      keywords = "АСУН, Автоматизированная Система Управления Нагрузкой, Demand-Side Management (DSM), Управление энергопотреблением, Оптимизация энергопотребления, Снижение затрат на электроэнергию, Энергоэффективность, Энергосбережение, Мониторинг энергопотребления, Контроль энергопотребления, Автоматизация управления нагрузкой, Управление пиковой нагрузкой, Снижение пиковой мощности, Demand Response (Управление спросом), Интеграция с программами управления спросом, Решения для энергоэффективности, Энергетический менеджмент, Системы управления энергопотреблением, Программное обеспечение для управления энергопотреблением"
 
+[menu]
 
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 1
 
-    [params.meta]
-        keywords = "АСУН, Автоматизированная Система Управления Нагрузкой, Demand-Side Management (DSM), Управление энергопотреблением, Оптимизация энергопотребления, Снижение затрат на электроэнергию, Энергоэффективность, Энергосбережение, Мониторинг энергопотребления, Контроль энергопотребления, Автоматизация управления нагрузкой, Управление пиковой нагрузкой, Снижение пиковой мощности, Demand Response (Управление спросом), Интеграция с программами управления спросом, Решения для энергоэффективности, Энергетический менеджмент, Системы управления энергопотреблением, Программное обеспечение для управления энергопотреблением"
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/opera7133/tella"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
+
+      
