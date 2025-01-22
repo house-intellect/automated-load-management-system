@@ -26,7 +26,7 @@ enableRobotsTXT = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
+    main = "img/logo/logo.png"
     alt = "Автоматизированная Система Управления Нагрузкой - АСУН"
 
     # The size parameter is the class name of tailwindcss

@@ -1,257 +1,307 @@
 <!DOCTYPE html>
-<html class="bg-white antialiased"><head>
-	<meta name="generator" content="Hugo 0.92.2" />
-  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<html lang="ru">
 
-  <title>Автоматизированная Система Управления Нагрузкой - АСУН</title>
+<head>
+	<meta name="generator" content="Hugo 0.142.0"><script src="/automated-load-management-system/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=automated-load-management-system/livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<title>Автоматизированная Система Управления Нагрузкой - АСУН</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href='/automated-load-management-system/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/automated-load-management-system/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/automated-load-management-system/favicon-16x16.png'>
+<link rel="manifest" href='/automated-load-management-system/site.webmanifest'>
 
-  
-    <link rel="shortcut icon" href="https://house-intellect.github.io/automated-load-management-system/images/favicon.png" type="image/png" />
-  
-  
-    <meta name="description" content="Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды" />
-  
-  
-    <meta name="keywords" content="АСУН, Автоматизированная Система Управления Нагрузкой, Demand-Side Management (DSM), Управление энергопотреблением, Оптимизация энергопотребления, Снижение затрат на электроэнергию, Энергоэффективность, Энергосбережение, Мониторинг энергопотребления, Контроль энергопотребления, Автоматизация управления нагрузкой, Управление пиковой нагрузкой, Снижение пиковой мощности, Demand Response (Управление спросом), Интеграция с программами управления спросом, Решения для энергоэффективности, Энергетический менеджмент, Системы управления энергопотреблением, Программное обеспечение для управления энергопотреблением" />
-  
-  
-  <meta name="referrer" content="no-referrer-when-downgrade" />
-  <meta name="viewport" content="width=device-width" />
-
-  <meta property="og:title" content="" />
-<meta property="og:description" content="Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://house-intellect.github.io/automated-load-management-system/" /><meta property="og:image" content="https://house-intellect.github.io/automated-load-management-system/images/share-image.png"/><meta property="og:site_name" content="Автоматизированная Система Управления Нагрузкой" />
-
-
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://house-intellect.github.io/automated-load-management-system/images/share-image.png"/>
-
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"/>
-
-  <meta itemprop="name" content="">
-<meta itemprop="description" content="Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды">
+<link href='/css/fa6.min.css' rel="stylesheet" type="text/css">
 
 
 
-  
+<link rel="stylesheet" href="/automated-load-management-system/css/style.css">
 
-<link href="https://house-intellect.github.io/automated-load-management-system/css/main.513da5b0f2eb6fa460d630b00c27ad2d2a9d9c7e0337ef70f93d820bd303d643.css" rel="stylesheet" />
 
+<link rel="stylesheet" href='/css/swiper-bundle.min.css'>
+
+<link href='/css/style.min.css' rel="stylesheet" type="text/css">
+<link rel="stylesheet" href='/css/custom.css'>
+<meta name="description" content="Инновационное приложение для управления энергопотреблением, которое обеспечивает автономный контроль и оптимизацию работы вашей электрической сети" />
+    <meta property="og:title" content="Автоматизированная Система Управления Нагрузкой" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tella.pages.dev" />
+    <meta property="og:image" content="https://house-intellect.github.io/automated-load-management-system/images/tease.jpg" />
+    <meta property="og:description" content="Инновационное приложение для управления энергопотреблением, которое обеспечивает автономный контроль и оптимизацию работы вашей электрической сети" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@username" />
+    <meta name="twitter:creator" content="@username" />
 </head>
-<body><header id="header">
-  <div id="header-inner-wrapper" class="bg-gray-100 pt-24 lg:pt-0">
-    <div
-      class="w-full max-w-screen-xl relative mx-auto px-6 pt-16 pb-40 md:pb-24"
-    >
-      <div class="text-left md:text-center sm:max-w-2xl max-w-3xl mx-auto">
-        <h1
-  id="brand-headline"
-  class="leading-tight text-3xl tracking-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight font-medium"
->
-  Компания будущего, ООО
-</h1>
 
-        <p
-  class="mt-6 sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed text-gray-600 leading-relaxed"
-  id="tagline-paragraph"
->
-  Добро пожаловать! Мы рады, что вы здесь. Мы с большим энтузиазмом готовы рассказать вам об инновационной системе управления энергопотреблением (АСУН) и ее возможностях. Оптимизация энергопотребления и экономия средств - это наше призвание!
-</p>
-
-        <div class="flex mt-6 justify-start md:justify-center">
-          <a
-  class="button button-primary rounded-lg px-4 md:px-5 py-3 md:py-4 bg-teal-500 hover:bg-teal-600 md:text-lg md:leading-tight text-white font-semibold leading-tight shadow-md"
-  href="#contact-form"
-  id="button-cta"
->
-  Связаться с нами
-</a>
-
-          <a
-  class="button button-secondary ml-4 rounded-lg px-4 md:px-5 py-3 md:py-4 bg-white hover:bg-gray-200 md:text-lg md:leading-tight text-gray-800 font-semibold leading-tight shadow-md"
-  href="#the-future---today"
-  id="button-more"
->
-  Почему это выгодно?
-</a>
-
-        </div>
-      </div>
-      <div class="mt-12 flex-shrink-0 hidden md:block mx-auto" id="teaser-image">
-  <div class="mx-auto">
-    <div class="flex flex-col p-2">
-      <img
-        class="shadow-lg bg-gray-800 px-5 pb-6 pt-4 rounded-lg"
-        src="images/tease.jpg"
-      />
+<body><header>
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            
+            <li class="p-2">
+                <a href="/automated-load-management-system/products/">
+                    <span>Products</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/automated-load-management-system/blog/">
+                    <span>Blog</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/automated-load-management-system/about/">
+                    <span>About</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/automated-load-management-system/contact/">
+                    <span>Contact</span>
+                </a>
+            </li>
+            
+        </ul>
     </div>
-  </div>
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+            <a href="http://localhost:1313/automated-load-management-system/"><img alt="Автоматизированная Система Управления Нагрузкой - АСУН"
+                    class="h-14 mr-3" src="/automated-load-management-system/img/logo/logo.png"></a>
+        </div>
+        <div class="block lg:hidden">
+            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+            <div class="text-lg lg:flex-grow">
+            </div>
+            <div class="text-lg">
+                
+                <a href="/automated-load-management-system/products/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Products
+                </a>
+                
+                <a href="/automated-load-management-system/blog/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Blog
+                </a>
+                
+                <a href="/automated-load-management-system/about/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    About
+                </a>
+                
+                <a href="/automated-load-management-system/contact/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Contact
+                </a>
+                
+            </div>
+        </div>
+    </nav>
+</header><div class="scroll-top rounded-full">
+        <span class="icon-keyboard_arrow_up text-2xl"></span>
+    </div><div class="swiper-container">
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+            <img src="img/slide/slide01.jpg" alt="">
+            <div class="s-fade-txt">
+                <h1 class="text-4xl text-white">Tella, A Hugo theme for Companies.</h1>
+            </div>
+        </div>
+        
+        <div class="swiper-slide">
+            <img src="img/slide/slide02.jpg" alt="">
+            <div class="s-fade-txt">
+                <h1 class="text-4xl text-black">Sample text here...</h1>
+            </div>
+        </div>
+        
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 </div>
 
-    </div>
-  </div>
-</header>
-<main id="main" class="w-full max-w-screen-xl mx-auto">
-  <div class="px-6">
-    <div
-      id="content-wrapper"
-      class="min-h-screen w-full sm:max-w-2xl max-w-3xl mx-auto"
-    >
-      <div id="content">
-        <div class="flex">
-          <div class="pb-16 w-full pt-12">
-            <div class="homepage-content prose w-full max-w-3xl mx-auto mb-6">
-              <h1 id="будущее---сегодня">Будущее - сегодня!</h1>
-<p><strong>Внедрение инновационной системы управления энергопотреблением (АСУН) позволит вам:</strong></p>
-<ul>
-<li><strong>Эффективно управлять энергопотреблением:</strong> АСУН помогает оптимизировать расход электроэнергии, снижая пиковые нагрузки и уменьшая затраты.</li>
-<li><strong>Повысить надежность энергоснабжения:</strong> АСУН обеспечивает стабильную работу энергосистемы, предотвращая перегрузки и отключения.</li>
-<li><strong>Улучшить экологическую обстановку:</strong> АСУН способствует снижению выбросов CO2 и улучшению окружающей среды.</li>
-<li><strong>Сделать управление проще:</strong> АСУН имеет интуитивно понятный интерфейс и легко интегрируется с существующими системами управления.</li>
-</ul>
-<p><strong>Свяжитесь с нами сегодня, чтобы узнать больше о том, как АСУН может помочь вашему бизнесу.</strong></p>
-<hr>
-<h1 id="заинтересованы">Заинтересованы?</h1>
-<p>Мы ценим ваш интерес к АСУН на ранней стадии ее внедрения! Не стесняйтесь обращаться к нам. Мы с радостью проведем демонстрацию возможностей системы и расскажем о её преимуществах.</p>
-<form
-  
-  id="contact-form"
-  class="pb-10"
-  name="contact"
-  netlify
-  netlify-honeypot="you-like-this-field"
->
-  <div class="hidden">
-    <input name="you-like-this-field" />
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10">
-    <div class="border-t border-teal-500 py-2">
-      <input
-        id="name"
-        name="name"
-        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none w-full"
-        type="text"
-        placeholder="Имя"
-        aria-label="Name"
-      />
-    </div>
-    <div class="border-t border-teal-500 py-2">
-      <input
-        required
-        id="email"
-        name="email"
-        type="email"
-        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none w-full"
-        type="text"
-        placeholder="Электронная почта"
-        aria-label="Email"
-      />
-    </div>
-  </div>
-  <div class="grid grid-cols-1">
-    <div class="border-t border-teal-500 py-2">
-      <textarea
-        required
-        id="message"
-        name="message"
-        rows="6"
-        placeholder="Сообщение"
-        class="appearance-none w-full bg-transparent text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-      ></textarea>
-    </div>
-  </div>
-  <div class="md:text-center mx-auto">
-    <button
-      class="button button-primary mx-auto w-full rounded-lg px-4 md:px-5 py-3 md:py-4 bg-teal-500 hover:bg-teal-600 md:text-lg md:leading-tight text-white font-semibold leading-tight shadow-md md:text-center"
-    >
-      Отправить ✉️
-    </button>
-  </div>
-</form>
-
-<hr>
-<h1 id="система-управления-энергопотреблением-асун">Система управления энергопотреблением (АСУН)</h1>
-<p><strong>АСУН - это комплексное решение для оптимизации энергопотребления, которое поможет вам:</strong></p>
-<ul>
-<li>Снизить затраты на электроэнергию до 30%</li>
-<li>Повысить надежность энергоснабжения на 15%</li>
-<li>Уменьшить выбросы CO2 на 20%</li>
-<li>Упростить управление энергопотреблением</li>
-</ul>
-<p><strong>АСУН собирает и анализирует данные о потреблении электроэнергии, определяет оптимальные режимы работы оборудования и автоматически регулирует нагрузку в соответствии с заданными параметрами.</strong></p>
-<p><strong>Преимущества использования АСУН:</strong></p>
-<ul>
-<li>Простота установки и удобство использования</li>
-<li>Интуитивно понятный интерфейс</li>
-<li>Легкая интеграция с существующими системами управления</li>
-</ul>
-<p><strong>Ознакомьтесь с преимуществами АСУН и сделайте шаг к эффективному управлению энергопотреблением!</strong></p>
-<p><img src="images/prototype.jpg" alt="Демонстрация АСУН"> &mdash;</p>
-<h1 id="контактная-информация">Контактная информация</h1>
-<p><strong>Адрес:</strong> г. Санкт-Петербург</p>
-<p><strong>Электронная почта:</strong>  <a href="mailto:sirglepp+alms@gmail.com?subject=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC">sirglepp+alms@gmail.com</a></p>
-<p><strong>Политика конфиденциальности:</strong></p>
-<p>Мы серьезно относимся к конфиденциальности данных и не храним никакой лишней информации. Мы не используем сервисы отслеживания, cookies или других подобных технологий.</p>
-<p>Если вы решите воспользоваться контактной формой или подпиской на рассылку, эта информация будет храниться на нашем сервере. Вы можете в любое время обратиться к нам, чтобы удалить свои данные или просто получить информацию о том, какие данные мы храним.</p>
-<hr>
-<h1 id="оставайтесь-на-связи">Оставайтесь на связи</h1>
-<p>Подпишитесь на нашу рассылку, чтобы быть в курсе последних новостей об АСУН и ее возможностях. Мы обещаем не беспокоить вас лишней информацией. Ожидайте полезных обновлений один-два раза в 3 месяца.</p>
-<form
-  
-  class="pb-10"
-  id="newsletter-sign-up-form"
-  name="newsletter"
-  netlify
-  netlify-honeypot="you-like-this-field"
->
-  <div class="hidden">
-    <input name="you-like-this-field" />
-  </div>
-  <div class="grid grid-cols-1">
-    <div class="border-t border-teal-500 py-2">
-      <input
-        id="name"
-        name="name"
-        type="email"
-        required
-        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-        type="text"
-        placeholder="Ваш электронный адрес"
-        aria-label="Email"
-      />
-      <div class="md:text-center mx-auto">
-        <button
-          class="button button-primary mx-auto w-full rounded-lg px-4 md:px-5 my-5 py-3 md:py-4 bg-teal-500 hover:bg-teal-600 md:text-lg md:leading-tight text-white font-semibold leading-tight shadow-md md:text-center"
-        >
-          Подписаться
-        </button>
-      </div>
-    </div>
-  </div>
-</form>
-
-
-            </div>
-          </div>
+<div class="bg-tlgray-200 py-6 md:py-10">
+    <div class="container mx-auto max-w-7xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            
+            
+                <div
+                    class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg">
+                    <div class="p-1">
+                        
+                        <span class="icon-desktop_windows text-5xl"></span>
+                        
+                        <h2 class="text-2xl">Simple</h2>
+                        <p class="sans">All the bare necessities are there.</p>
+                    </div>
+                </div>
+                
+            
+            
+                <div
+                    class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg">
+                    <div class="p-1">
+                        
+                        <span class="icon-lightbulb_outline text-5xl"></span>
+                        
+                        <h2 class="text-2xl">Fast</h2>
+                        <p class="sans">Light weight and fast loading speed.</p>
+                    </div>
+                </div>
+                
+            
+            <a href="https://github.com/opera7133/tella">
+                <div
+                    class="bg-white text-center mx-2 px-4 py-10 flex flex-row justify-center items-center duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg">
+                    <div class="p-1">
+                        
+                        <span class="icon-github text-5xl"></span>
+                        
+                        <h2 class="text-2xl">Github</h2>
+                        <p class="sans">Please fork the Github repository and contribute to this theme!</p>
+                    </div>
+                </div>
+                
+            </a>
+            
         </div>
+    </div>
+</div>
+
+    <div class="mx-auto my-10 max-w-6xl">
+        <h2 class="text-4xl ml-2">Blog</h2>
+<a href="http://localhost:1313/automated-load-management-system/blog/markdown-syntax/"><div
+  class="sans w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 duration-500 transform hover:-translate-y-1 hover:shadow-md">
+  
+  <img id="thumb" alt="Markdown Syntax Guide" class="aspect-video object-cover w-auto lg:h-44"
+    src='/img/default.jpg'>
+  
+  <div
+    class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 relative pl-4 p-6 justify-between leading-normal max-w-full w-full">
+    <div class="text-gray-900 font-bold text-xl mb-2">Markdown Syntax Guide</div>
+    <p class="text-gray-700 text-base pb-5">This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML ...</p>
+    <p class="text-sm text-gray-600 items-center">
+      <time>2019/03/11</time>
+    </p>
+  </div>
+</div></a>
+
+<a href="http://localhost:1313/automated-load-management-system/blog/rich-content/"><div
+  class="sans w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 duration-500 transform hover:-translate-y-1 hover:shadow-md">
+  
+  <img id="thumb" alt="Rich Content" class="aspect-video object-cover w-auto lg:h-44"
+    src='/img/default.jpg'>
+  
+  <div
+    class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 relative pl-4 p-6 justify-between leading-normal max-w-full w-full">
+    <div class="text-gray-900 font-bold text-xl mb-2">Rich Content</div>
+    <p class="text-gray-700 text-base pb-5">Hugo ships with several Built-in Short...</p>
+    <p class="text-sm text-gray-600 items-center">
+      <time>2019/03/10</time>
+    </p>
+  </div>
+</div></a>
+
+<a href="http://localhost:1313/automated-load-management-system/blog/placeholder-text/"><div
+  class="sans w-full px-2 lg:max-w-full lg:flex mt-3 lg:px-0 duration-500 transform hover:-translate-y-1 hover:shadow-md">
+  
+  <img id="thumb" alt="Placeholder Text" class="aspect-video object-cover w-auto lg:h-44"
+    src='/img/default.jpg'>
+  
+  <div
+    class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 relative pl-4 p-6 justify-between leading-normal max-w-full w-full">
+    <div class="text-gray-900 font-bold text-xl mb-2">Placeholder Text</div>
+    <p class="text-gray-700 text-base pb-5">Lorem est tota propiore conpellat pectoribus de pectora summo.
+...</p>
+    <p class="text-sm text-gray-600 items-center">
+      <time>2019/03/09</time>
+    </p>
+  </div>
+</div></a>
+
+
+<div class="flex flex-wrap justify-center text-gray-300 my-5">
+    <a href="blog/"
+        class="duration-200 px-6 py-3 bg-tlgray-800 hover:opacity-80 hover:text-white relative block focus:outline-none text-md text-center">
+        All Posts >
+    </a>
+</div></div>
+    <footer class="bg-tlgray-100">
+  
+  <script>
+    function toggleNav() {
+      var hamburger = document.getElementById("hamburgerbtn");
+      var overlay = document.getElementById("overlay");
+      var body = document.body;
+
+      hamburger.addEventListener("click", function () {
+        overlay.classList.toggle("open");
+        hamburger.classList.toggle("is-open");
+        body.classList.toggle("scroll-lock");
+      });
+    }
+    toggleNav();
+
+    document.querySelector('.scroll-top').addEventListener('click', () => {
+      document.documentElement.scrollTop = 0;
+    });
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
+  
+  <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
+    <div class="items-center text-xl text-grey-900 mr-6">
+      Автоматизированная Система Управления Нагрузкой - АСУН
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+      <div class="text-lg lg:flex-grow">
+      </div>
+      <div class="flex flex-row items-center text-lg">
+        
+        <a href="/automated-load-management-system/" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          Home
+          
+        </a>
+        
+        <a href="https://github.com/house-intellect" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          <i class='icon-github text-2xl'></i>
+          
+        </a>
+        
       </div>
     </div>
   </div>
-</main>
-<footer id="footer" class="w-full max-w-screen-xl mx-auto mb-6">
-  <div class="px-6">
-    <div class="w-full sm:max-w-2xl max-w-3xl mx-auto">
-      
-        <div class="prose copyright">© house-intellect</div>
-      
-      
-      
-      
-    </div>
+  <div class="copy pl-8 py-5 bg-tlgray-700 text-white text-md">
+    &copy; Автоматизированная Система Управления Нагрузкой - АСУН 2025 All Rights Reserved.
   </div>
 </footer>
+<script src="/js/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper(".swiper-container", {
+            direction: "horizontal",
+            loop: true,
+            speed: 550,
+            autoplay: {
+                delay: 6000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
+
 </html>
