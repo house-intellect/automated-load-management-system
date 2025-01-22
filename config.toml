@@ -23,7 +23,7 @@ canonifyURLs = true
 
   showBlog = true
   mainSections = ['blog']
-    copyright = "© house-intellect"
+  copyright = "© house-intellect"
   googleFonts = true
 
   [params.logo]
@@ -35,7 +35,7 @@ canonifyURLs = true
     size = "h-14"
 
   [params.site]
-    name = "Автоматизированная Система Управления Нагрузкой - АСУН"
+    name = "Автоматизированная Система Управления Нагрузкой"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -45,7 +45,7 @@ canonifyURLs = true
     meta_description = "Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"
     meta_og_description = "Инновационное приложение для управления энергопотреблением, которое обеспечивает автономный контроль и оптимизацию работы вашей электрической сети"
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
+    meta_og_url = "https://house-intellect.github.io/automated-load-management-system"
     meta_og_image = "https://house-intellect.github.io/automated-load-management-system/images/tease.jpg"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
@@ -57,31 +57,31 @@ canonifyURLs = true
 
   [[menu.main]]
     identifier = "products"
-    name = "Products"
+    name = "Проекты"
     url = "/products/"
     weight = 1
 
   [[menu.main]]
     identifier = "blog"
-    name = "Blog"
+    name = "Новости"
     url = "/blog/"
     weight = 2
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "О нас"
     url = "/about/"
     weight = 3
 
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "Контакты"
     url = "/contact/"
     weight = 4
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "Главная"
     url = "/"
       weight = 1
 
