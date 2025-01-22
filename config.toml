@@ -1,4 +1,4 @@
-baseURL = "https://house-intellect.github.io/automated-load-management-system/"
+baseURL = "https://house-intellect.github.io/automated-load-management-system"
 
 # The "title" of your website
 title = "Автоматизированная Система Управления Нагрузкой - АСУН"
@@ -8,6 +8,7 @@ DefaultContentLanguage = "ru"
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
+canonifyURLs = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
