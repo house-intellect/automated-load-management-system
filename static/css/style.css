@@ -178,6 +178,7 @@ html {
   display: block;
   background: rgba(255, 255, 255, 0);
   position: relative;
+  filter:invert(1);
   z-index: 1000;
 }
 
@@ -231,6 +232,7 @@ html {
 #overlay.open {
   visibility: visible;
   opacity: 0.95;
+  filter:invert(1);
 }
 body.scroll-lock {
   position: fixed;
