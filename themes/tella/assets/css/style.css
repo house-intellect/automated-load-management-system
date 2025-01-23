@@ -460,7 +460,6 @@ legend {
 ol,
 ul,
 menu {
-  filter: invert(100%);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -2883,6 +2882,7 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+  filter:invert(1);
 }
 
 .cursor-text {
