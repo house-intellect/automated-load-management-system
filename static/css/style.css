@@ -175,6 +175,7 @@ html {
 /* menu */
 .mopen {
   float: left;
+  filter:invert(100%);
   display: block;
   background: rgba(255, 255, 255, 0);
   position: relative;
