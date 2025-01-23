@@ -2882,6 +2882,7 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+  filter: invert(1);
 }
 
 .cursor-text {
