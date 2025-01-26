@@ -2882,7 +2882,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-  filter: invert(1);
 }
 
 .cursor-text {
@@ -3213,11 +3212,6 @@ video {
 .bg-teal-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 184 166 / var(--tw-bg-opacity, 1));
-}
-
-.bg-tlgray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
 
 .bg-tlgray-700 {

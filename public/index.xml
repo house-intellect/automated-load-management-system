@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Автоматизированная Система Управления Нагрузкой - АСУН</title>
-    <link>https://house-intellect.github.io/automated-load-management-system/</link>
+    <link>http://localhost:1313/automated-load-management-system/</link>
     <description>Recent content on Автоматизированная Система Управления Нагрузкой - АСУН</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
-    <atom:link href="https://house-intellect.github.io/automated-load-management-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 12:33:45 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/automated-load-management-system/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Project</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/products/example/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/products/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan dapibus purus, vel maximus erat facilisis vel. Suspendisse eu ipsum consequat, sodales nulla vel, faucibus velit. Fusce imperdiet lacus nec cursus auctor. In vulputate arcu et nulla placerat, nec pulvinar quam rhoncus. Praesent vel placerat nunc. Mauris elit felis, pulvinar egestas risus ut, fermentum ullamcorper orci. Integer tempor, neque sed fermentum eleifend, ligula est tincidunt purus, sodales semper elit enim ut mi. Vestibulum commodo tristique hendrerit. Duis interdum tristique augue id aliquam. Sed et tellus aliquam, accumsan erat at, facilisis tortor. Donec ac sapien sed lectus ullamcorper ultrices. Nullam placerat mauris nec urna rhoncus, vitae faucibus nulla venenatis. Donec vestibulum justo auctor, vestibulum diam quis, egestas erat. Vivamus volutpat et metus ut fermentum. Donec volutpat neque nec quam lacinia, nec faucibus felis ullamcorper.&lt;/p&gt;</description>
+      <title>Адаптивное Управление Нагрузкой</title>
+      <link>http://localhost:1313/automated-load-management-system/products/energy_management_app/</link>
+      <pubDate>Tue, 05 Oct 2021 12:33:45 +1000</pubDate>
+      <guid>http://localhost:1313/automated-load-management-system/products/energy_management_app/</guid>
+      <description>&lt;p&gt;Приложение для управления энергопотреблением обеспечивает автономный контроль и оптимизацию работы вашей электрической сети. Вот ключевые особенности системы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Считывание телеметрии&lt;/strong&gt;: Приложение считывает данные о текущей активной, реактивной, полной мощности, коэффициенте мощности (cos φ) и других параметрах непосредственно с измерительных устройств, имеющих цифровой интерфейс.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Локальное управление&lt;/strong&gt;: Система действует автономно в пределах Вашей локальной сети, напрямую отдавая команды исполнительным устройствам умного дома Ewelink. Это обеспечивает высокую скорость адаптации к изменениям режима потребления энергии, а также гарантирует независимость от внешнего интернета.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Независимость от Ewelink&lt;/strong&gt;: Приложение никак не связано с китайской экосистемой Ewelink, но сами исполнительные устройства связаны с китайским облаком умного дома Ewelink. Это позволяет пользователю просматривать состояние устройств в мобильном приложении Ewelink и вручную управлять ими.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Интеграция с Ewelink (на уровне устройств)&lt;/strong&gt;: За счет того, что исполнительные устройства являются частью китайской экосистемы умного дома Ewelink, пользователь может:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Просматривать текущее состояние коммутаторов нагрузки в родном мобильном приложении Ewelink.&lt;/li&gt;&#xA;&lt;li&gt;Вручную переключать состояние исполнительных устройств или коммутаторов.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Автоматическая корректировка&lt;/strong&gt;: Если ручное управление через приложение Ewelink выведет автоматику из допустимых режимов, система автоматически выполнит переключения для восстановления стабильной работы и для возвращения в допустимый диапазон потрбляемой мощности или приемлемый диапазон значений коэффициента мощности cos φ для избежания выставления штрафов энергосбытовой организацией.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Быстрое реагирование&lt;/strong&gt;: Скорость срабатывания автоматики определяется периодом опроса измерительного устройства, обычно этот интервал составляет 30 секунд. Этот параметр можно настроить во время пусконаладки системы в соответствии со спецификой технического задания.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Гибкая настройка&lt;/strong&gt;: Система позволяет гибко настраивать параметры управления нагрузками, выставляя приоритеты коммутируемым второстепенным потребителям и интервалы времени между коммутациями в цепочке коммутаций каждого адаптивного сценария. Непрерывный режим опроса телеметрии и гранулированность коммутируемой второстепенной нагрузки позволяет обеспечивать постоянный контроль над режимом работы объекта.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Удаленный контроль&lt;/strong&gt;: Для технической поддержки, пользовательской настройки и удаленного мониторинга работы программного комплекса можно использовать программу AnyDesk, которая предоставит удаленный доступ к ПК с установленным ПО.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;преимущества-системы&#34;&gt;Преимущества системы:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Надежность&lt;/strong&gt;: Локальное управление обеспечивает стабильную автоматическую работу системы даже при отсутствии интернет-соединения.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Безопасность&lt;/strong&gt;: Исключение зависимости от внешних серверов повышает безопасность и конфиденциальность данных.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Удобство&lt;/strong&gt;: Возможность использовать приложение Ewelink для мониторинга и ручного управления при наличии этого требования в техническом задании.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Автоматизация&lt;/strong&gt;: Автоматическая корректировка значений потребления энергии и/или коэффициента мощности cos(φ) обеспечивает стабильную работу системы, предотвращает перегрузки и гарантирует отсутствие штрафов от энергосбыта за превышение значений пиковой заявленной мощности (отключение второстепенных потребителей) или снижение коэффициента реактивной мощности cos φ ниже допустимых значений (автоматическое включение батарей конденсаторов для компенсации скачков индуктивных нагрузок).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Экономия&lt;/strong&gt;: Автоматическое управление второстепенными нагрузками и батареями конденсаторов позволяет следовать плану потребления электроэнергии и снизить расходы за счет перехода на более строгие и экономически эффективные тарифы энергосбытовой организации, а также нивелировать вероятность получения штрафов за несоблюдение cos(φ), графиков, режимов и планов потребления энергии. При уделении должного внимания расчету автоматически коммутируемых нагрузок и емкостей установка данного программного комплекса может окупиться в течение нескольких недель работы.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Это решение идеально подходит для тех, кто ищет надежную, автономную и гибко настраиваемую систему управления энергопотреблением с возможностью интеграции в существующую или планируемую инфраструктуру умного дома Ewelink.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О нас</title>
+      <link>http://localhost:1313/automated-load-management-system/about/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/automated-load-management-system/about/</guid>
+      <description>&lt;p&gt;Мы - команда разработчиков программного обеспечения и электротехнических инженеров с более чем десятилетним опытом работы. Наша специализация заключается в разработке и установке ПО для промышленной автоматизации, предназначенного как для частных, так и для корпоративных клиентов.&lt;/p&gt;&#xA;&lt;p&gt;Мы базируемся в Москве и Санкт-Петербурге, и у нас также есть подразделение на юге России. Это позволяет нам эффективно обслуживать клиентов по всей стране. Наша команда обладает глубокими знаниями и навыками в области сбора и анализа данных, а также в автоматизации процессов.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/blog/markdown-syntax/</link>
+      <link>http://localhost:1313/automated-load-management-system/blog/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/blog/markdown-syntax/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/blog/rich-content/</link>
+      <link>http://localhost:1313/automated-load-management-system/blog/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/blog/rich-content/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/blog/placeholder-text/</link>
+      <link>http://localhost:1313/automated-load-management-system/blog/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/blog/placeholder-text/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/blog/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/blog/math-typesetting/</link>
+      <link>http://localhost:1313/automated-load-management-system/blog/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/blog/math-typesetting/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/blog/emoji-support/</link>
+      <link>http://localhost:1313/automated-load-management-system/blog/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/blog/emoji-support/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/about/</guid>
-      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://house-intellect.github.io/automated-load-management-system/contact/</link>
+      <title>Контакты</title>
+      <link>http://localhost:1313/automated-load-management-system/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://house-intellect.github.io/automated-load-management-system/contact/</guid>
+      <guid>http://localhost:1313/automated-load-management-system/contact/</guid>
       <description>&lt;form name=&#34;contact&#34; action=&#34;https://getform.io/&#34; method=&#34;POST&#34;&gt;&#xA;    &lt;div class=&#34;input&#34;&gt;&#xA;        &lt;input type=&#34;text&#34; placeholder=&#34;Name&#34; name=&#34;name&#34; class=&#34;p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500&#34; required&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;input&#34;&gt;&#xA;        &lt;input type=&#34;text&#34; placeholder=&#34;Email&#34; name=&#34;mail&#34; class=&#34;p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500&#34; required&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;input&#34;&gt;&#xA;        &lt;input type=&#34;text&#34; placeholder=&#34;Title&#34; name=&#34;title&#34; class=&#34;p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500&#34; required&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;input&#34;&gt;&#xA;        &lt;textarea rows=&#34;5&#34; cols=&#34;30&#34; placeholder=&#34;Message&#34; name=&#34;message&#34; class=&#34;p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500&#34; required&gt;&lt;/textarea&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;input type=&#34;submit&#34; value=&#34;Submit&#34; class=&#34;px-8 py-2 duration-200 bg-gray-800 text-white cursor-pointer transition-colors hover:bg-gray-400&#34;&gt;&#xA;&lt;/form&gt;</description>
     </item>
   </channel>
