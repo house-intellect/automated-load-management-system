@@ -1,5 +1,4 @@
 ---
-title: 'Contact'
+title: 'Контакты'
 ---
-
 {{< form >}}

@@ -1,11 +1,11 @@
 [
   {
-    "title": "Tella, A Hugo theme for Companies.",
-    "image": "img/slide/slide01.jpg"
+    "title": "Система Адаптивного Управления Нагрузкой Автоматизированная",
+    "image": "img/slide/автоматическое управление потреблением активной мощностью нагрузкой.webp"
   },
   {
-    "title": "Sample text here...",
-    "image": "img/slide/slide02.jpg",
+    "title": "",
+    "image": "img/slide/автоматическое отключение второстепенных потребителей при превышении максимальной заявленной мощности.webp",
     "color": "text-black"
   }
 ]
