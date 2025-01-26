@@ -3205,7 +3205,7 @@ video {
 }
 
 .bg-gray-800-transparent {
-  --tw-bg-opacity: 0.5;
+  --tw-bg-opacity: 0.3;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
