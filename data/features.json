@@ -2,21 +2,21 @@
   {
     "title": "Автономность",
     "description": "Работает без интернета.",
-    "icon": "i-material-symbols-ssid-chart"
+    "icon": "graph_2"
   },
   {
     "title": "Устойчивость",
     "description": "Своевременная корректировка параметров потребления энергии.",
-    "icon": "icon-airline_stops"
+    "icon": "network_ping"
   },
   {
     "title": "Самоокупаемость",
     "description": "Оптимизация расходов на электроэнергию.",
-    "icon": "icon-monetization_on_outlined"
+    "icon": "currency_exchange"
   },
   {
     "title": "Гибкость",
     "description": "Настройка приоритетов и интервалов коммутации.",
-    "icon": "icon-ssid_chart"
+    "icon": "ssid_chart"
   }
 ]
