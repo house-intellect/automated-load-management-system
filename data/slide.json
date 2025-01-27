@@ -1,10 +1,18 @@
 [
   {
-    "title": "Система Адаптивного Управления Нагрузкой",
-    "image": "img/slide/автоматическое управление потреблением активной мощностью нагрузкой.webp"
+    "title": "Системы Адаптивного Управления Нагрузкой",
+    "image": "img/slide/breakers-algorythmic-control.webp"
   },
   {
-    "title": "Автоматическая Коррекция cos(φ)",
-    "image": "img/slide/Автоматизированное Управление Коэффициентом Реактивной Мощности.webp"
+    "title": "Автоматическая коррекция cos(φ)",
+    "image": "img/slide/capacity-algorythmic-switching.webp"
+  },
+  {
+    "title": "Улучшение режимов работы инфраструктуры",
+    "image": "img/slide/increased-reliability-of-electrical-supply-infrastraucture.webp"
+  },
+  {
+    "title": "Путь к устойчивому развитию",
+    "image": "img/slide/sustainable development.webp"
   }
 ]
