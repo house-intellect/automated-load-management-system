@@ -10,11 +10,6 @@
     "icon": "icon-airline_stops"
   },
   {
-    "title": "Мониторинг",
-    "description": "Постоянный контроль параметров сети.",
-    "icon": "icon-analytics_outlined"
-  },
-  {
     "title": "Самоокупаемость",
     "description": "Оптимизация расходов на электроэнергию.",
     "icon": "icon-monetization_on_outlined"
