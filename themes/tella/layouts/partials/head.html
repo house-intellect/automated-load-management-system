@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicon-16x16.png" | relURL }}'>
 <link rel="manifest" href='{{ "site.webmanifest" | relURL }}'>
 {{ if .Site.Params.icon.fontawesome }}
-<link hrel="stylesheet" ref='{{ "/css/fa6.min.css" | relURL }}'>
+<link rel="stylesheet" ref='{{ "/css/fa6.min.css" | relURL }}'>
 {{ end }}
 {{ $styles := resources.Get "css/style.css" | postCSS }}
 {{ if hugo.IsServer }}
@@ -19,5 +19,5 @@
 {{ if .IsHome }}
 <link rel="stylesheet" href='{{ "/css/swiper-bundle.min.css" | relURL }}'>
 {{ end }}
-<link hrel="stylesheet" ref='{{ "/css/style.min.css" | relURL }}' >
+<link rel="stylesheet" ref='{{ "/css/style.min.css" | relURL }}' >
 <link rel="stylesheet" href='{{ "/css/custom.css" | relURL }}'>
