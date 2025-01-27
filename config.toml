@@ -19,6 +19,11 @@ relativeURLs = false  # Disable relative URLs
 
 # Disqus Comment System
 #disqusShortname = ""
+[markup.goldmark.renderHooks.image]
+enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+enableDefault = true
 
 [params]
 
@@ -54,11 +59,6 @@ relativeURLs = false  # Disable relative URLs
     meta_og_title = "Автоматизированная Система Управления Нагрузкой"
     keywords = "АСУН, Автоматизированная Система Управления Нагрузкой, Demand-Side Management (DSM), Управление энергопотреблением, Оптимизация энергопотребления, Снижение затрат на электроэнергию, Энергоэффективность, Энергосбережение, Мониторинг энергопотребления, Контроль энергопотребления, Автоматизация управления нагрузкой, Управление пиковой нагрузкой, Снижение пиковой мощности, Demand Response (Управление спросом), Интеграция с программами управления спросом, Решения для энергоэффективности, Энергетический менеджмент, Системы управления энергопотреблением, Программное обеспечение для управления энергопотреблением"
 
-[markup.goldmark.renderHooks.image]
-enableDefault = true
-
-[markup.goldmark.renderHooks.link]
-enableDefault = true
 
 [menu]
 
