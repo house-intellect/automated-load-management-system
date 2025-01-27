@@ -43,7 +43,7 @@ relativeURLs = false  # Disable relative URLs
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"
+    meta_description = "Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами"
     meta_og_description = "Защита от перегрузки за счет пошагового автоматического отключения второстепенных потребителей"
     meta_og_type = "website"
     meta_og_url = "https://house-intellect.github.io/automated-load-management-system/"
