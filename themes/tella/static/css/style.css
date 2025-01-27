@@ -101,6 +101,21 @@
 .icon-get-pocket:before {
   content: "\f265";
 }
+.icon-network_wifi_outlined:before {
+  content: "\f20c";
+}
+.icon-airline_stops:before {
+  content: "\f04bb";
+}
+.icon-analytics_outlined:before {
+  content: "\ee74";
+}
+.icon-monetization_on_outlined:before {
+  content: "\f1dd";
+}
+.icon-ssid_chart:before {
+  content: "\ee74f0571";
+}
 body {
   font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
   font-weight: 300;
