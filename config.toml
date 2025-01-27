@@ -9,7 +9,7 @@ enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
 canonifyURLs = true
-relativeURLs = true  # Disable relative URLs
+relativeURLs = false  # Disable relative URLs
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
