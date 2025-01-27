@@ -65,7 +65,7 @@ relativeURLs = true  # Disable relative URLs
   [[menu.main]]
     identifier = "blog"
     name = "Новости"
-    url = "/blog/"
+    url = "/articles/"
     weight = 2
 
   [[menu.main]]
