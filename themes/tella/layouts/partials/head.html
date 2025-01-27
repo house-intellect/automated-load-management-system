@@ -5,9 +5,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href='{{ "apple-touch-icon.png" | relURL }}'>
 <link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon-32x32.png" | relURL }}'>
 <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicon-16x16.png" | relURL }}'>
-<link rel="manifest" href='{{ "site.webmanifest" | relURL }}'>
+<link rel="manifest" href='{{ "site.webmanifest" | absURL }}'>
 {{ if .Site.Params.icon.fontawesome }}
-<link href='{{ "/css/fa6.min.css" | absURL }}' rel="stylesheet" type="text/css">
+<link hrel="stylesheet" ref='{{ "/css/fa6.min.css" | absURL }}'>
 {{ end }}
 {{ $styles := resources.Get "css/style.css" | postCSS }}
 {{ if hugo.IsServer }}
@@ -19,5 +19,5 @@
 {{ if .IsHome }}
 <link rel="stylesheet" href='{{ "/css/swiper-bundle.min.css" | absURL }}'>
 {{ end }}
-<link href='{{ "/css/style.min.css" | absURL }}' rel="stylesheet" type="text/css">
+<link hrel="stylesheet" ref='{{ "/css/style.min.css" | absURL }}' >
 <link rel="stylesheet" href='{{ "/css/custom.css" | relURL }}'>
