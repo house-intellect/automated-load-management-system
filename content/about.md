@@ -2,7 +2,7 @@
 title = "О нас"
 description = "Команда разработчиков программного обеспечения и электротехнических инженеров"
 date = "2020-10-05"
-image = img/team/saun-team.webp
+image = img/saun-team.webp
 aliases = ["о-нас", "команда", "контакты"]
 author = "АСУН"
 +++
