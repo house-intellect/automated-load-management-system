@@ -1,4 +1,4 @@
-baseURL = "https://house-intellect.github.io/automated-load-management-system"
+baseURL = "https://house-intellect.github.io/automated-load-management-system/"
 
 # The "title" of your website
 title = "Автоматизированная Система Управления Нагрузкой - АСУН"
@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
 canonifyURLs = true
+relativeURLs =  false # Disable relative URLs
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
@@ -45,7 +46,7 @@ canonifyURLs = true
     meta_description = "Мы помогаем предприятиям и организациям активно управлять своим энергопотреблением, снижая затраты, повышая устойчивость энергосистемы и способствуя сохранению окружающей среды"
     meta_og_description = "Инновационное приложение для управления энергопотреблением, которое обеспечивает автономный контроль и оптимизацию работы вашей электрической сети"
     meta_og_type = "website"
-    meta_og_url = "https://house-intellect.github.io/automated-load-management-system"
+    meta_og_url = "https://house-intellect.github.io/automated-load-management-system/"
     meta_og_image = "https://house-intellect.github.io/automated-load-management-system/images/tease.jpg"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
@@ -90,5 +91,3 @@ canonifyURLs = true
     url = "https://github.com/house-intellect"
     pre = "<i class='icon-github text-2xl'></i>"
       weight = 2
-
-      

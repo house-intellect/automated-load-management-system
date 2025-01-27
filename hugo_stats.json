@@ -54,9 +54,10 @@
       "aspect-video",
       "bg-gray-200",
       "bg-gray-800",
+      "bg-gray-800-transparent",
       "bg-opacity-100",
       "bg-tlgray-100",
-      "bg-tlgray-200",
+      "bg-tlgray-300",
       "bg-tlgray-700",
       "bg-tlgray-800",
       "bg-white",
@@ -213,6 +214,7 @@
       "relative",
       "rounded",
       "rounded-full",
+      "rounded-lg",
       "s-fade-txt",
       "sans",
       "scroll-top",
@@ -290,7 +292,8 @@
       "url",
       "vagus-elidunt",
       "vimeo-shortcode",
-      "youtube-privacy-enhanced-shortcode"
+      "youtube-privacy-enhanced-shortcode",
+      "преимущества-системы"
     ]
   }
 }

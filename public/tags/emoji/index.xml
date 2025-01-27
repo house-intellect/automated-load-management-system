@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emoji on Автоматизированная Система Управления Нагрузкой - АСУН</title>
-    <link>http://localhost:1313/automated-load-management-system/tags/emoji/</link>
+    <link>https://house-intellect.github.io/automated-load-management-system/tags/emoji/</link>
     <description>Recent content in Emoji on Автоматизированная Система Управления Нагрузкой - АСУН</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/automated-load-management-system/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://house-intellect.github.io/automated-load-management-system/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/automated-load-management-system/blog/emoji-support/</link>
+      <link>https://house-intellect.github.io/automated-load-management-system/blog/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/automated-load-management-system/blog/emoji-support/</guid>
+      <guid>https://house-intellect.github.io/automated-load-management-system/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
   </channel>
