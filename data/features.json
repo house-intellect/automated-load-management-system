@@ -2,7 +2,7 @@
   {
     "title": "Автономность",
     "description": "Работает без интернета.",
-    "icon": "icon-network_wifi_outlined"
+    "icon": "i-material-symbols-ssid-chart"
   },
   {
     "title": "Устойчивость",
