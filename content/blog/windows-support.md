@@ -1,5 +1,5 @@
 +++
-author = "АСУН"
+author = "Менеджер проекта"
 title = "Поддержка операционных систем Windows"
 date = "2023-10-05"
 image = "img/blog/windows-support.webp"

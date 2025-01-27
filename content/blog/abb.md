@@ -1,5 +1,5 @@
 +++
-author = "АСУН"
+author = "Менеджер проекта"
 title = "Поддержка устройств ABB DMTME-I-485 для телеметрии"
 date = "2023-10-05"
 image = "img/blog/abb-dmtme-i-485.webp"

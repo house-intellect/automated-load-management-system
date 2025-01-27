@@ -1,5 +1,5 @@
 +++
-author = "АСУН"
+author = "Менеджер проекта"
 title = "Поддержка устройств Sonoff в системе автоматического отключения"
 date = "2023-10-05"
 image = "img/blog/sonoff-ewelink.webp"
