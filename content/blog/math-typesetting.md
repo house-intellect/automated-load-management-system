@@ -2,7 +2,7 @@
 author: Hugo Authors
 title: Math Typesetting
 date: 2019-03-08
-image: "img/mobile app.webp"
+image: "img/blog/mobile app.webp"
 description: A brief guide to setup KaTeX
 math: true
 ---

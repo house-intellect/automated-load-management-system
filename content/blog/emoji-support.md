@@ -2,7 +2,7 @@
 author = "Hugo Authors"
 title = "Emoji Support"
 date = "2019-03-05"
-image = "img/laptop.webp"
+image = "img/blog/laptop.webp"
 draft = true
 description = "Guide to emoji usage in Hugo"
 tags = [
