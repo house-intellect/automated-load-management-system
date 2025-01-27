@@ -2,6 +2,7 @@
 author = "Hugo Authors"
 title = "Placeholder Text"
 date = "2019-03-09"
+image: "img/ewelink.webp"
 description = "Lorem Ipsum Dolor Si Amet"
 tags = [
     "markdown",

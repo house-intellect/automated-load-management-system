@@ -2,6 +2,7 @@
 author = "Hugo Authors"
 title = "Rich Content"
 date = "2019-03-10"
+image: "img/telemetering.webp"
 description = "A brief description of Hugo Shortcodes"
 tags = [
     "shortcodes",
