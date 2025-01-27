@@ -20,12 +20,6 @@ relativeURLs = false  # Disable relative URLs
 # Disqus Comment System
 #disqusShortname = ""
 
-[markup.goldmark.renderHooks.image]
-enableDefault = true
-
-[markup.goldmark.renderHooks.link]
-enableDefault = true
-
 [params]
 
   showBlog = true
