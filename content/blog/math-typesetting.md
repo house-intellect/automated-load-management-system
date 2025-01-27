@@ -1,50 +1,35 @@
----
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
-image: "img/blog/mobile app.webp"
-description: A brief guide to setup KaTeX
-math: true
----
++++
+author = "АСУН"
+title = "Преимущества использования массовых коммутационных реле интернета вещей в промышленной автоматизации"
+date = "2023-10-05"
+image = "img/blog/iot-relays.webp"
+description = "Преимущества использования массовых коммутационных реле интернета вещей в качестве исполнительных устройств в области промышленной автоматизации"
+tags = [
+    "промышленная автоматизация",
+    "IoT",
+    "Sonoff",
+    "Ewelink",
+]
++++
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+Использование массовых коммутационных реле интернета вещей (IoT) в качестве исполнительных устройств в области промышленной автоматизации предоставляет множество преимуществ. Протоколы обмена устройств умного дома позволяют управлять ими напрямую, в обход облачной экосистемы, что значительно повышает надежность системы.
+
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/)
+## Преимущества использования IoT реле
 
-- Create a partial under `/layouts/partials/math.html`
-- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
-- Include the partial in your templates like so:  
+### Надежность управления
 
-```bash
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-```
+Коммутаторы Sonoff позволяют управлять ими по локальной сети, используя HTTP JSON POST запросы. Это многократно увеличивает надежность исполнения команд телеуправления, исключая из цепочки информационного обмена самую ненадежную ее часть - интернет и чужие сервера. Таким образом, управление устройствами становится более стабильным и предсказуемым.
 
-- To enable KaTex globally set the parameter `math` to `true` in a project's configuration
-- To enable KaTex on a per page basis include the parameter `math: true` in content files
+### Локальное управление
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
+Наличие локального управления умными устройствами через интернет и экосистему умного дома, или интернета вещей, является приятным дополнением, но не необходимостью. Локальное управление позволяет избежать зависимостей от внешних серверов и интернет-соединения, что особенно важно в условиях промышленной автоматизации.
 
-{{< math.inline >}}
-{{ if or .Page.Params.math .Site.Params.math }}
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-{{ end }}
-{{</ math.inline >}}
+### Прозрачность и гибкость
 
-### Examples
+Просмотр состояния коммутаторов и возможность их ручного переключения через мобильное приложение, установленное на телефон диспетчера, повышает общий уровень эргономики и отказоустойчивости системы. Это достигается за счет повышенной прозрачности и гибкости, которые обеспечены наличием дополнительного инструмента мониторинга, такого как системы интернета вещей, например, Ewelink.
 
-{{< math.inline >}}
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
+## Заключение
 
-Block math:
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
+Использование массовых коммутационных реле интернета вещей в промышленной автоматизации предоставляет значительные преимущества в плане надежности, прозрачности и гибкости управления. Протоколы обмена устройств умного дома, такие как те, что используются в коммутаторах Sonoff, позволяют управлять ими напрямую по локальной сети, что исключает зависимость от интернета и внешних серверов. Это делает систему более устойчивой и предсказуемой, что особенно важно в условиях промышленной автоматизации.
