@@ -34,24 +34,4 @@ description: Приложение для автономного автомати
 
 ![Automated Load Management System](../../img/Automated-Load-Management-System.webp)
 
-<script>
-function openFullscreen(src) {
-    var img = document.createElement("img");
-    img.src = src;
-    img.style.position = "fixed";
-    img.style.top = "0";
-    img.style.left = "0";
-    img.style.width = "100%";
-    img.style.height = "100%";
-    img.style.objectFit = "contain";
-    img.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-    img.style.zIndex = "1000";
-    img.onclick = function() { document.body.removeChild(img); };
-    document.body.appendChild(img);
-}
-
-document.querySelectorAll('img').forEach(img => {
-    img.style.cursor = 'pointer';
-    img.onclick = () => openFullscreen(img.src);
-});
-</script>
+{{< fullscreen >}}
