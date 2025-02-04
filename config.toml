@@ -17,7 +17,7 @@ image = "https://автоматическое-управление-нагруз�
 #hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-googleAnalytics = "G-YMDXXMEB0E"
+#googleAnalytics = "G-YMDXXMEB0E"
 
 # Disqus Comment System
 #disqusShortname = ""
