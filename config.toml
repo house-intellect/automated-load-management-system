@@ -10,7 +10,7 @@ theme = "tella"
 enableRobotsTXT = true
 canonifyURLs = true
 relativeURLs = false  # Disable relative URLs
-image = "https://house-intellect.github.io/automated-load-management-system/img/Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами.webp"
+image = "https://автоматическое-управление-нагрузкой.рф/img/Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами.webp"
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
 
@@ -46,8 +46,8 @@ image = "https://house-intellect.github.io/automated-load-management-system/img/
     meta_description = "Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами"
     meta_og_description = "Защита от перегрузки за счет пошагового автоматического отключения второстепенных потребителей"
     meta_og_type = "website"
-    meta_og_url = "https://house-intellect.github.io/automated-load-management-system/"
-    meta_og_image = "https://house-intellect.github.io/automated-load-management-system/img/alms.webp"
+    meta_og_url = "https://автоматическое-управление-нагрузкой.рф"
+    meta_og_image = "https://автоматическое-управление-нагрузкой.рф/img/alms.webp"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
     meta_twitter_creator = "@username"
