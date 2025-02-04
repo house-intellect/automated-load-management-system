@@ -1,5 +1,5 @@
-baseURL = "https://house-intellect.github.io/automated-load-management-system/"
-
+#baseURL = "https://house-intellect.github.io/automated-load-management-system/"
+baseURL = "https://автоматическое-управление-нагрузкой.рф/"
 # The "title" of your website
 title = "Система Адаптивного Управления Нагрузкой"
 author = "house-intellect"
