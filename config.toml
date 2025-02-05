@@ -12,7 +12,7 @@ theme = "tella"
 enableRobotsTXT = true
 canonifyURLs = true
 relativeURLs = false  # Disable relative URLs
-image = "https://автоматическое-управление-нагрузкой.рф/img/Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами.webp"
+image = "img/alms.webp"
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
 
@@ -23,7 +23,7 @@ image = "https://автоматическое-управление-нагруз�
 #disqusShortname = ""
 
 [params]
-
+  favicon = "favicon.ico"
   showBlog = true
   mainSections = ['blog']
   copyright = "house-intellect"
@@ -49,7 +49,7 @@ image = "https://автоматическое-управление-нагруз�
     meta_og_description = "Защита от перегрузки за счет пошагового автоматического отключения второстепенных потребителей"
     meta_og_type = "website"
     meta_og_url = "https://автоматическое-управление-нагрузкой.рф"
-    meta_og_image = "https://автоматическое-управление-нагрузкой.рф/img/alms.webp"
+    meta_og_image = "img/alms.webp"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
     meta_twitter_creator = "@username"
