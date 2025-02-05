@@ -2,9 +2,9 @@
   <rss version="2.0">
     <channel>
       <title>{{site.Title}}</title>
-      <link>{{ .Site.BaseURL }}</link>
-      <description>{{ .Site.Params.description }}</description>
-      {{ range .Site.RegularPages }}
+      <link>{{ site.BaseURL }}</link>
+      <description>{{ site.Params.description }}</description>
+      {{ range site.RegularPages }}
       <item>
         <turbo>true</turbo> <!-- Custom tag added here -->
         <title>{{ .Title }}</title>
