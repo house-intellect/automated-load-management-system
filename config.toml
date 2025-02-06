@@ -67,7 +67,7 @@ image = "img/alms.webp"
   [[menu.main]]
     identifier = "blog"
     name = "Новости"
-    url = "/articles/"
+    url = "/blog/"
     weight = 2
 
   [[menu.main]]
