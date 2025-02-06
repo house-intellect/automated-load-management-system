@@ -16,5 +16,5 @@ Microsoft Certification ID : 8131268
 
 [Microsoft Learning Transcript](https://learn.microsoft.com/en-us/users/glebsyrovatskiy-0660/transcript/vjzmminmk15qpm0?source=docs&tab=credentials-tab)
 
-
+{{< telegram-button >}}
 {{< fullscreen >}}
