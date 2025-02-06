@@ -33,6 +33,7 @@
         <description>Профессиональная разработка мобильных приложений на Kotlin для Android. Работа с API, интеграция Firebase, разработка UI/UX.</description>
         <adult>false</adult>
         <expiry>P5Y</expiry>
+        <param name="Конверсия">1.234</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
         <param name="Рейтинг">4.8</param>
         <param name="Число отзывов">25</param>
         <param name="Годы опыта">15</param>
