@@ -22,7 +22,7 @@
     </sets>
     <offers>
       <offer id="dev001">
-        <name>Опытный Android Kotlin-разработчик</name>
+        <name>Мобильные приложения на заказ</name>
         <url>https://автоматическое-управление-нагрузкой.рф/contact</url>
         <price>3000</price>
         <currencyId>RUR</currencyId>
@@ -34,8 +34,6 @@
         <adult>false</adult>
         <expiry>P5Y</expiry>
         <param name="Конверсия">1.234</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
-        <param name="Рейтинг">4.8</param>
-        <param name="Число отзывов">25</param>
         <param name="Годы опыта">15</param>
         <param name="Регион">Санкт-Петербург</param>
         <param name="Основные услуги">Разработка Android-приложений, Интеграция с API, Оптимизация кода, Поддержка существующих проектов</param>
