@@ -17,7 +17,7 @@ To enable emoji globally, set `enableEmoji` to `true` in your site's [configurat
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+The [Emoji cheat sheet](https://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 ***
 
