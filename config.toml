@@ -1,7 +1,7 @@
 #baseURL = "https://house-intellect.github.io/automated-load-management-system/"
-baseURL = "https://автоматическое-управление-нагрузкой.рф"
+baseURL = "https://offline-smarthome-scenarios.pro"
 # The "title" of your website
-url = "https://автоматическое-управление-нагрузкой.рф"
+url = "https://offline-smarthome-scenarios.pro"
 
 title = "Система Адаптивного Управления Нагрузкой"
 author = "house-intellect"
@@ -48,7 +48,7 @@ image = "img/alms.webp"
     meta_description = "Отключение второстепенных нагрузок при превышении заданного порога мощности с настраиваемыми приоритетами"
     meta_og_description = "Защита от перегрузки за счет пошагового автоматического отключения второстепенных потребителей"
     meta_og_type = "website"
-    meta_og_url = "https://автоматическое-управление-нагрузкой.рф"
+    meta_og_url = "https://offline-smarthome-scenarios.pro"
     meta_og_image = "img/alms.webp"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"

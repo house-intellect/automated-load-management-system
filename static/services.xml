@@ -3,7 +3,7 @@
   <shop>
     <name>Android Разработчик</name>
     <company>Самозанятый</company>
-    <url>https://автоматическое-управление-нагрузкой.рф/contact/</url>
+    <url>https://offline-smarthome-scenarios.pro/contact/</url>
     <email>sirglepp+andoid@yandex.ru</email>
     <currencies>
       <currency id="RUR" rate="1" />
@@ -17,19 +17,19 @@
     <sets>
       <set id="s1">
         <name>Разработка мобильных приложений на Android (Kotlin) в Санкт-Петербурге</name>
-        <url>https://автоматическое-управление-нагрузкой.рф/about/</url>
+        <url>https://offline-smarthome-scenarios.pro/about/</url>
       </set>
     </sets>
     <offers>
       <offer id="dev001">
         <name>Мобильные приложения на заказ</name>
-        <url>https://автоматическое-управление-нагрузкой.рф/contact</url>
+        <url>https://offline-smarthome-scenarios.pro/contact</url>
         <price>3000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за час работы</sales_notes>
         <categoryId>4</categoryId>
         <set-ids>s1</set-ids>
-        <picture>https://автоматическое-управление-нагрузкой.рф/img/android-developer.webp</picture>
+        <picture>https://offline-smarthome-scenarios.pro/img/android-developer.webp</picture>
         <description>Профессиональная разработка мобильных приложений на Kotlin для Android. Работа с API, интеграция Firebase, разработка UI/UX.</description>
         <adult>false</adult>
         <expiry>P5Y</expiry>
